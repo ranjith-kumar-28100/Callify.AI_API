@@ -28,7 +28,10 @@ class PostSchema(ma.Schema):
 post_schema = PostSchema()
 posts_schema = PostSchema(many=True)
 
-
+#Home Request
+@app.route('/',methods =['GET','POST'])
+def home():
+    return "This API was Created by Ranjith Kumar G for the Callify.AI Programmer Hiring Contest"
 #Request No 1
 @app.route('/transactions/<date_>/',methods =['GET'])
 def get_transaction(date_):
