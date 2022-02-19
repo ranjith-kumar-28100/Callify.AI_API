@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'CallifyAITransactionDetails'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0D357F5F16254082895A9E9B6AB4D86F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_95F95BF182F544B88CDD34D1343C61EA }}
